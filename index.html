@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #252525;
+      }
+
+      .element-node {
+        background-color: cyan;
+        border: 1px solid;
+        position: absolute;
+      }
+
+      .drag-zone {
+        background-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas class="drag-zone" id="canvas" height="700" width="700"></canvas>
+  </body>
+
+  <script src="./util.tsx" type="module"></script>
+  <script src="./ElementNode.tsx" type="module"></script>
+  <script src="./ElementNodeConnector.tsx" type="module"></script>
+  <script src="./global.tsx" type="module"></script>
+  <script src="./draggable.tsx" type="module"></script>
+  <script src="./script.tsx" type="module"></script>
+</html>
