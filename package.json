@@ -1,0 +1,12 @@
+{
+  "name": "play_canvas",
+  "version": "1.0.0",
+  "author": "yumii.saiko <yumii.saiko@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve index.html"
+  },
+  "devDependencies": {
+    "parcel": "2.9.3"
+  }
+}

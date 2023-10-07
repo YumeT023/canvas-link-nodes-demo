@@ -1,0 +1,6 @@
+.idea
+.vscode
+
+.parcel-cache
+dist
+*.log

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "skipLibChecks": true,
+    "jsx": "preserve"
+  }
+}
